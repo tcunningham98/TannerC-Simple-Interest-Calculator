@@ -6,7 +6,7 @@ function compute()
 
     if (principal <= 0 || isNaN(principal))
     {
-        alert("Enter a valid number");
+        alert("Enter a positive number!");
         document.getElementById("principal").focus();
         return
 
